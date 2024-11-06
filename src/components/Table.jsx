@@ -15,7 +15,7 @@ function Table({ isEditable }) { // สร้าง components ที่รั�
     };
 
     return (
-<       div className='flex justify-center'>
+        <div className='flex justify-center'>
         {data.length === 0? (<table className='hidden'></table>) : (
         <table className='border-collapse border border-gray-200 my-20 w-3/4 '>
             <thead>

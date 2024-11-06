@@ -1,12 +1,12 @@
 import React from 'react'
 import Main from '../components/Main'
-import Table from '../components/Table'
+import Table from './../components/Table';
 
 function HomeUser() {
   return (
     <div>
-      <Main prop="Home - User Sector"/>
-      <Table />
+      <Main prop='Home - User Sector'/>
+      <Table/>
     </div>
   )
 }
